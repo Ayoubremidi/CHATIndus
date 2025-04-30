@@ -64,7 +64,7 @@ st.sidebar.markdown("""
 st.sidebar.write("Pose une question en langage naturel et obtiens une requête SQL exécutée sur la base de données.")
 
 # ✅ Set API Key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR_API_KEY"
 
 # ✅ Initialize Llama-70B (Groq LLM)
 llm = ChatGroq(model="llama-3.3-70b-versatile")
